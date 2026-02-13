@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mahima Bhat Resume</title>
+<title>Mahima Bhat | Resume</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 
@@ -16,75 +16,64 @@
 }
 
 body{
-    background:#f3f3f3;
+    background:#f2f2f2;
     display:flex;
     justify-content:center;
-    padding:40px;
+    padding:40px 20px;
 }
 
 .container{
     width:1000px;
     background:white;
     display:flex;
-    box-shadow:0 5px 25px rgba(0,0,0,0.1);
+    box-shadow:0 8px 30px rgba(0,0,0,0.08);
 }
 
-/* LEFT SIDE */
+/* LEFT COLUMN */
 .left{
     width:35%;
     background:#f7f7f7;
-    padding:40px 30px;
-}
-
-.left img{
-    width:120px;
-    height:120px;
-    border-radius:50%;
-    object-fit:cover;
-    margin-bottom:20px;
+    padding:45px 35px;
 }
 
 .name{
-    font-size:22px;
+    font-size:26px;
     font-weight:600;
+    margin-bottom:5px;
 }
 
 .role{
     font-size:14px;
-    color:#555;
-    margin-bottom:25px;
+    color:#666;
+    margin-bottom:30px;
 }
 
 .section-title{
-    margin:25px 0 10px;
-    font-size:13px;
+    font-size:12px;
     letter-spacing:4px;
     font-weight:600;
+    margin:30px 0 12px;
 }
 
 .left p, .left li{
     font-size:13px;
     color:#444;
     margin-bottom:6px;
-    line-height:1.5;
+    line-height:1.6;
 }
 
 .left ul{
     list-style:none;
 }
 
-/* RIGHT SIDE */
+/* RIGHT COLUMN */
 .right{
     width:65%;
-    padding:40px;
-}
-
-.right .section-title{
-    margin-top:0;
+    padding:45px 50px;
 }
 
 .job{
-    margin-bottom:30px;
+    margin-bottom:35px;
 }
 
 .job h3{
@@ -95,7 +84,7 @@ body{
 .company{
     font-size:13px;
     color:#666;
-    margin:5px 0 10px;
+    margin:6px 0 12px;
 }
 
 .job ul{
@@ -105,7 +94,35 @@ body{
 .job li{
     font-size:13px;
     margin-bottom:6px;
-    line-height:1.5;
+    line-height:1.6;
+}
+
+/* Responsive */
+@media(max-width:900px){
+    .container{
+        flex-direction:column;
+        width:100%;
+    }
+
+    .left, .right{
+        width:100%;
+    }
+
+    .right{
+        padding:35px;
+    }
+}
+
+/* Print Friendly */
+@media print{
+    body{
+        background:white;
+        padding:0;
+    }
+    .container{
+        box-shadow:none;
+        width:100%;
+    }
 }
 </style>
 </head>
@@ -114,10 +131,8 @@ body{
 
 <div class="container">
 
-    <!-- LEFT SIDE -->
+    <!-- LEFT COLUMN -->
     <div class="left">
-
-        <img src="profile.jpg" alt="Profile Photo">
 
         <div class="name">Mahima Bhat</div>
         <div class="role">Strategic Account & Solutions Manager</div>
@@ -125,23 +140,21 @@ body{
         <p>San Francisco, CA</p>
         <p>mbhat@usfca.edu</p>
         <p>(669) 455-8460</p>
-
-        <div class="section-title">SOCIAL</div>
         <p>linkedin.com/in/mahima-bhat-769522195</p>
 
         <div class="section-title">PROFILE</div>
         <p>
-            Strategic and passionate Account & Solutions Manager.
-            Love working with customers to define success and transform
-            product strategies into scalable growth opportunities
-            across AI and enterprise platforms.
+            Strategic and passionate Account & Solutions Manager with experience 
+            driving growth, partnerships, and customer success across AI and 
+            enterprise platforms. Skilled in GTM strategy, multi-channel execution, 
+            and data-driven decision making.
         </p>
 
         <div class="section-title">EDUCATION</div>
         <p><strong>MBA</strong> – University of San Francisco</p>
         <p>Sales, Strategic Partnerships, Product Marketing, Customer Success</p>
 
-        <p style="margin-top:10px;"><strong>BBA</strong> – SSMRV College</p>
+        <p style="margin-top:12px;"><strong>BBA</strong> – SSMRV College</p>
         <p>Accounting & Finance</p>
 
         <div class="section-title">SKILLS</div>
@@ -150,13 +163,23 @@ body{
             <li>GTM Strategy</li>
             <li>Strategic Partnerships</li>
             <li>Customer Success</li>
+            <li>Account Management</li>
             <li>GA4, HubSpot, Zoho CRM</li>
             <li>Tableau, Advanced Excel</li>
+            <li>Predictive Analytics</li>
+        </ul>
+
+        <div class="section-title">INTERESTS</div>
+        <ul>
+            <li>Swimming (Freestyle – Lap)</li>
+            <li>Painting (Water/Oil/Acrylic)</li>
+            <li>Bay Area Hiking</li>
+            <li>Model United Nations</li>
         </ul>
 
     </div>
 
-    <!-- RIGHT SIDE -->
+    <!-- RIGHT COLUMN -->
     <div class="right">
 
         <div class="section-title">EXPERIENCE</div>
@@ -165,9 +188,10 @@ body{
             <h3>Marketing & Growth Intern</h3>
             <div class="company">Echelon AI | September 2025 – Present</div>
             <ul>
-                <li>Drive multi-channel top-of-funnel growth across LinkedIn, email, and community channels.</li>
-                <li>Manage analytics via GA4, HubSpot & LinkedIn.</li>
-                <li>Develop AI thought leadership and execute GTM campaign sprints.</li>
+                <li>Drive multi-channel top-of-funnel growth across LinkedIn, email and community platforms.</li>
+                <li>Manage analytics via GA4, HubSpot & LinkedIn tracking CTR, demos and conversions.</li>
+                <li>Create AI thought leadership content and execute GTM campaign sprints end-to-end.</li>
+                <li>Collaborate cross-functionally with founders and engineers to validate messaging.</li>
             </ul>
         </div>
 
@@ -175,9 +199,10 @@ body{
             <h3>Marketing Strategy Intern</h3>
             <div class="company">FuelCloud | May – September 2025</div>
             <ul>
-                <li>Led competitive analysis and customer segmentation.</li>
-                <li>Executed targeted B2B campaigns across vertical industries.</li>
-                <li>Built ROI calculators and event marketing collateral.</li>
+                <li>Led competitive analysis and customer segmentation to refine GTM positioning.</li>
+                <li>Executed targeted B2B campaigns across construction, trucking and agriculture verticals.</li>
+                <li>Developed ROI calculators, one-pagers and trade show collateral.</li>
+                <li>Supported CRM analytics and conversion tracking.</li>
             </ul>
         </div>
 
@@ -185,10 +210,11 @@ body{
             <h3>Strategic Accounts & Growth</h3>
             <div class="company">Analytics India Magazine | 2021 – 2024</div>
             <ul>
-                <li>Increased engagement by 25% and follower growth by 40%.</li>
-                <li>Expanded Leaders Council across Singapore, India & US.</li>
-                <li>Grew membership by 100+ members in one year.</li>
-                <li>Secured 30+ senior executives in 2 months.</li>
+                <li>Increased engagement by 25% and follower growth by 40% in six months.</li>
+                <li>Expanded AIM Leaders Council across Singapore, India and the US.</li>
+                <li>Secured 30+ senior executives within 2 months.</li>
+                <li>Grew council membership by 100+ members in one year.</li>
+                <li>Drove user acquisition and retention growth by 40%.</li>
             </ul>
         </div>
 
@@ -196,7 +222,7 @@ body{
             <h3>Senior Technician (Helpdesk)</h3>
             <div class="company">DXC Technology | 3 Months</div>
             <ul>
-                <li>Resolved 100+ technical issues with highest CSAT scores.</li>
+                <li>Resolved 100+ technical issues with highest CSAT score.</li>
                 <li>Awarded Best Performer of the Month.</li>
             </ul>
         </div>
