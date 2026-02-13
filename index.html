@@ -1,199 +1,209 @@
-<div class="resume" id="area-cv">
-    <div class="resume__left">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mahima Bhat Resume</title>
 
-        <!--========== HOME ==========-->
-        <section class="home" id="home">
-            <div class="home__container section bd-grid">
-                <div class="home__data bd-grid">
-                    <img src="./assets/img/withbg.jpg" alt="" class="home__img">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 
-                    <h1 class="home__title"><b>Mahima</b> Bhat</h1>
-                    <h3 class="home__profession">Strategic Account & Solutions Manager</h3>
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+}
 
-                    <div>
-                        <a download href="assets/img/Mahima_Resume.pdf" class="home__button-movil">Download</a>
-                    </div>
-                </div>
+body{
+    background:#f3f3f3;
+    display:flex;
+    justify-content:center;
+    padding:40px;
+}
 
-                <div class="home__address bd-grid">
-                    <span class="home__information">
-                        <i class='bx bx-map home__icon'></i> San Francisco, CA
-                    </span>
-                    <span class="home__information">
-                        <i class='bx bx-envelope home__icon'></i> 
-                        <a href="mailto:mbhat@usfca.edu">mbhat@usfca.edu</a>
-                    </span>
-                    <span class="home__information">
-                        <i class='bx bx-phone home__icon'></i> 
-                        <a href="tel:+16694558460">(669) 455-8460</a>
-                    </span>
-                </div>
-            </div>
-        </section>
+.container{
+    width:1000px;
+    background:white;
+    display:flex;
+    box-shadow:0 5px 25px rgba(0,0,0,0.1);
+}
 
-        <!--========== SOCIAL ==========-->
-        <section class="social section">
-            <h2 class="section-title">SOCIAL</h2>
+/* LEFT SIDE */
+.left{
+    width:35%;
+    background:#f7f7f7;
+    padding:40px 30px;
+}
 
-            <div class="social__container bd-grid2">
-                <a href="https://www.linkedin.com/in/mahima-bhat-769522195/" target="_blank" class="social__link">
-                    <i class='bx bxl-linkedin-square social__icon'></i>
-                </a>
-            </div>
-        </section>
+.left img{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    object-fit:cover;
+    margin-bottom:20px;
+}
 
-        <!--========== PROFILE ==========-->
-        <section class="profile section" id="profile">
-            <h2 class="section-title">Profile</h2>
-            <p class="profile__description">
-                Strategic and passionate Account & Solutions Manager with experience driving 
-                growth, partnerships, and customer success across AI and enterprise platforms. 
-                Skilled in GTM strategy, multi-channel growth, and data-driven execution.
-            </p>
-        </section>
+.name{
+    font-size:22px;
+    font-weight:600;
+}
 
-        <!--========== EDUCATION ==========-->
-        <section class="education section" id="education">
-            <h2 class="section-title">Education</h2>
+.role{
+    font-size:14px;
+    color:#555;
+    margin-bottom:25px;
+}
 
-            <div class="education__container bd-grid">
+.section-title{
+    margin:25px 0 10px;
+    font-size:13px;
+    letter-spacing:4px;
+    font-weight:600;
+}
 
-                <div class="education__content">
-                    <div class="education__time">
-                        <span class="education__rounder"></span>
-                        <span class="education__line"></span>
-                    </div>
-                    <div class="education__data bd-grid">
-                        <h3 class="education__title">MBA – Sales, Strategic Partnerships, Product Marketing, Customer Success</h3>
-                        <span class="education__studies">University of San Francisco</span>
-                        <span class="education__year">San Francisco, CA</span>
-                    </div>
-                </div>
+.left p, .left li{
+    font-size:13px;
+    color:#444;
+    margin-bottom:6px;
+    line-height:1.5;
+}
 
-                <div class="education__content">
-                    <div class="education__time">
-                        <span class="education__rounder"></span>
-                    </div>
-                    <div class="education__data bd-grid">
-                        <h3 class="education__title">BBA – Accounting & Finance</h3>
-                        <span class="education__studies">SSMRV College</span>
-                        <span class="education__year">Bangalore, India</span>
-                    </div>
-                </div>
+.left ul{
+    list-style:none;
+}
 
-            </div>
-        </section>
+/* RIGHT SIDE */
+.right{
+    width:65%;
+    padding:40px;
+}
 
-        <!--========== SKILLS  ==========-->
-        <section class="skills section" id="skills">
-            <h2 class="section-title">Skills</h2>
+.right .section-title{
+    margin-top:0;
+}
 
-            <div class="skills__content bd-grid">
-                <ul class="skills__data">
-                    <li class="skills__name"><span class="skills__circle"></span> Growth Strategy</li>
-                    <li class="skills__name"><span class="skills__circle"></span> GTM Strategy</li>
-                    <li class="skills__name"><span class="skills__circle"></span> Strategic Partnerships</li>
-                    <li class="skills__name"><span class="skills__circle"></span> B2B Marketing</li>
-                    <li class="skills__name"><span class="skills__circle"></span> Account Management</li>
-                    <li class="skills__name"><span class="skills__circle"></span> Customer Success</li>
-                </ul>
+.job{
+    margin-bottom:30px;
+}
 
-                <ul class="skills__data">
-                    <li class="skills__name"><span class="skills__circle"></span> GA4</li>
-                    <li class="skills__name"><span class="skills__circle"></span> HubSpot</li>
-                    <li class="skills__name"><span class="skills__circle"></span> Zoho CRM</li>
-                    <li class="skills__name"><span class="skills__circle"></span> Tableau</li>
-                    <li class="skills__name"><span class="skills__circle"></span> Predictive Analytics</li>
-                    <li class="skills__name"><span class="skills__circle"></span> Advanced Excel</li>
-                </ul>
-            </div>
-        </section>
+.job h3{
+    font-size:16px;
+    font-weight:600;
+}
+
+.company{
+    font-size:13px;
+    color:#666;
+    margin:5px 0 10px;
+}
+
+.job ul{
+    padding-left:18px;
+}
+
+.job li{
+    font-size:13px;
+    margin-bottom:6px;
+    line-height:1.5;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- LEFT SIDE -->
+    <div class="left">
+
+        <img src="profile.jpg" alt="Profile Photo">
+
+        <div class="name">Mahima Bhat</div>
+        <div class="role">Strategic Account & Solutions Manager</div>
+
+        <p>San Francisco, CA</p>
+        <p>mbhat@usfca.edu</p>
+        <p>(669) 455-8460</p>
+
+        <div class="section-title">SOCIAL</div>
+        <p>linkedin.com/in/mahima-bhat-769522195</p>
+
+        <div class="section-title">PROFILE</div>
+        <p>
+            Strategic and passionate Account & Solutions Manager.
+            Love working with customers to define success and transform
+            product strategies into scalable growth opportunities
+            across AI and enterprise platforms.
+        </p>
+
+        <div class="section-title">EDUCATION</div>
+        <p><strong>MBA</strong> – University of San Francisco</p>
+        <p>Sales, Strategic Partnerships, Product Marketing, Customer Success</p>
+
+        <p style="margin-top:10px;"><strong>BBA</strong> – SSMRV College</p>
+        <p>Accounting & Finance</p>
+
+        <div class="section-title">SKILLS</div>
+        <ul>
+            <li>Growth Strategy</li>
+            <li>GTM Strategy</li>
+            <li>Strategic Partnerships</li>
+            <li>Customer Success</li>
+            <li>GA4, HubSpot, Zoho CRM</li>
+            <li>Tableau, Advanced Excel</li>
+        </ul>
+
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <div class="right">
+
+        <div class="section-title">EXPERIENCE</div>
+
+        <div class="job">
+            <h3>Marketing & Growth Intern</h3>
+            <div class="company">Echelon AI | September 2025 – Present</div>
+            <ul>
+                <li>Drive multi-channel top-of-funnel growth across LinkedIn, email, and community channels.</li>
+                <li>Manage analytics via GA4, HubSpot & LinkedIn.</li>
+                <li>Develop AI thought leadership and execute GTM campaign sprints.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <h3>Marketing Strategy Intern</h3>
+            <div class="company">FuelCloud | May – September 2025</div>
+            <ul>
+                <li>Led competitive analysis and customer segmentation.</li>
+                <li>Executed targeted B2B campaigns across vertical industries.</li>
+                <li>Built ROI calculators and event marketing collateral.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <h3>Strategic Accounts & Growth</h3>
+            <div class="company">Analytics India Magazine | 2021 – 2024</div>
+            <ul>
+                <li>Increased engagement by 25% and follower growth by 40%.</li>
+                <li>Expanded Leaders Council across Singapore, India & US.</li>
+                <li>Grew membership by 100+ members in one year.</li>
+                <li>Secured 30+ senior executives in 2 months.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <h3>Senior Technician (Helpdesk)</h3>
+            <div class="company">DXC Technology | 3 Months</div>
+            <ul>
+                <li>Resolved 100+ technical issues with highest CSAT scores.</li>
+                <li>Awarded Best Performer of the Month.</li>
+            </ul>
+        </div>
 
     </div>
 
-    <div class="resume__right">
-
-        <!--========== EXPERIENCE ==========-->
-        <section class="experience section" id="experience">
-            <h2 class="section-title">Experience</h2>
-
-            <div class="experience__container bd-grid">
-
-                <div class="experience__data bd-grid">
-                    <h3 class="experience__title">Marketing & Growth Intern</h3>
-                    <span class="experience__company">Echelon AI | September 2025 – Present</span>
-                    <ul class="ulle">
-                        <li>Drive multi-channel top-of-funnel growth across LinkedIn, email, and niche communities.</li>
-                        <li>Manage analytics via GA4, HubSpot & LinkedIn.</li>
-                        <li>Develop AI thought leadership and execute GTM campaign sprints.</li>
-                    </ul>
-                </div>
-
-                <div class="experience__data bd-grid">
-                    <h3 class="experience__title">Marketing Strategy Intern</h3>
-                    <span class="experience__company">FuelCloud | May – September 2025</span>
-                    <ul class="ulle">
-                        <li>Led competitive analysis and customer segmentation.</li>
-                        <li>Executed targeted B2B campaigns across industry verticals.</li>
-                        <li>Built ROI calculators and event marketing collateral.</li>
-                    </ul>
-                </div>
-
-                <div class="experience__data bd-grid">
-                    <h3 class="experience__title">Strategic Accounts & Growth</h3>
-                    <span class="experience__company">Analytics India Magazine | 2021 – 2024</span>
-                    <ul class="ulle">
-                        <li>Increased engagement by 25% and follower growth by 40%.</li>
-                        <li>Expanded Leaders Council across Singapore, India & US.</li>
-                        <li>Grew membership by 100+ members within one year.</li>
-                        <li>Secured 30+ senior executives in 2 months.</li>
-                    </ul>
-                </div>
-
-                <div class="experience__data bd-grid">
-                    <h3 class="experience__title">Senior Technician (Helpdesk)</h3>
-                    <span class="experience__company">DXC Technology | 3 Months</span>
-                    <ul class="ulle">
-                        <li>Resolved 100+ technical issues with highest CSAT scores.</li>
-                        <li>Awarded Best Performer of the Month.</li>
-                    </ul>
-                </div>
-
-            </div>
-        </section>
-
-        <!--========== LEADERSHIP ==========-->
-        <section class="certificate section">
-            <h2 class="section-title">Leadership & Projects</h2>
-            <ul class="ul">
-                <li class="list">VP of Marketing – Product Club (USF)</li>
-                <li class="list">Graduate Student Assistant – Admissions (USF)</li>
-                <li class="list">Built GTM Strategy for FinTech AI Startup (Cypher A.I.)</li>
-                <li class="list">Model United Nations – Secretary General</li>
-            </ul>
-        </section>
-
-        <!--========== LANGUAGES ==========-->
-        <section class="languages section">
-            <h2 class="section-title">Languages</h2>
-            <div class="languages__container">
-                <ul class="languages__content bd-grid">
-                    <li class="languages__name"><span class="languages__circle"></span> English</li>
-                    <li class="languages__name"><span class="languages__circle"></span> Hindi</li>
-                </ul>
-            </div>
-        </section>
-
-        <!--========== INTERESTS ==========-->
-        <section class="extra">
-            <h2 class="section-title">Interests</h2>
-            <ul class="ul">
-                <li class="list">Swimming (Freestyle – Lap)</li>
-                <li class="list">Painting (Water/Oil/Acrylic – Landscapes)</li>
-                <li class="list">Bay Area Hiking</li>
-                <li class="list">Model United Nations</li>
-            </ul>
-        </section>
-
-    </div>
 </div>
+
+</body>
+</html>
